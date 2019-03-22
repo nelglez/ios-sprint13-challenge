@@ -17,6 +17,7 @@
 		7AB9B58E22453B420091A03D /* CameraPreviewPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB9B58D22453B420091A03D /* CameraPreviewPreview.swift */; };
 		7AB9B59322453DC90091A03D /* Experience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB9B59222453DC90091A03D /* Experience.swift */; };
 		7AB9B59622453E720091A03D /* ExperienceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB9B59522453E720091A03D /* ExperienceController.swift */; };
+		7AB9B5992245455B0091A03D /* LocationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB9B5982245455B0091A03D /* LocationHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		7AB9B58D22453B420091A03D /* CameraPreviewPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewPreview.swift; sourceTree = "<group>"; };
 		7AB9B59222453DC90091A03D /* Experience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experience.swift; sourceTree = "<group>"; };
 		7AB9B59522453E720091A03D /* ExperienceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceController.swift; sourceTree = "<group>"; };
+		7AB9B5982245455B0091A03D /* LocationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				7AB9B58D22453B420091A03D /* CameraPreviewPreview.swift */,
+				7AB9B5982245455B0091A03D /* LocationHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AB9B5992245455B0091A03D /* LocationHelper.swift in Sources */,
 				7AB9B58E22453B420091A03D /* CameraPreviewPreview.swift in Sources */,
 				7AB9B58C22453A970091A03D /* VideoRecordingViewController.swift in Sources */,
 				7AB9B58A224538890091A03D /* ExperienceViewController.swift in Sources */,
