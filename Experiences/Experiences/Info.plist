@@ -41,5 +41,15 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>&quot;To use the camera feature the app needs to access the camera&quot;</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>&quot;The app needs permission to access your location&quot;</string>
+	<key>NSLocationUsageDescription</key>
+	<string>&quot;The app needs permission to access your location&quot;</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>&quot;To save/get photos the app needs permission to use your photo library&quot;</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>&quot;To record voice, the app needs your permission to access the microphone&quot;</string>
 </dict>
 </plist>
