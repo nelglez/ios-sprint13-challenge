@@ -229,7 +229,7 @@ class ExperienceViewController: UIViewController, UIImagePickerControllerDelegat
         
         guard let title = titleTextField.text, !title.isEmpty, (recordingUrl != nil) else {
             
-            let alert = UIAlertController(title: "Error", message: "Please Enter Title Text!", preferredStyle: .alert)
+            let alert = UIAlertController(title: "Error", message: "Please make sure you have both a title text and an audio recording!", preferredStyle: .alert)
             
             let alertAction = UIAlertAction(title: "OK", style: .default, handler: nil)
             

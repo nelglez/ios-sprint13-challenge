@@ -195,15 +195,15 @@ class VideoRecordingViewController: UIViewController, AVCaptureFileOutputRecordi
         return documentDir.appendingPathComponent(UUID().uuidString).appendingPathExtension("mov")
     }
 
-    /*
+    
     // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        if segue.identifier == "toMapVC" {
+            let destinationVC = segue.destination as? MapViewController
+            destinationVC?.experienceController = experienceController
+            destinationVC?.experience = experienceController.experiences
+        }
     }
-    */
     
     @IBAction func recordButtonPressed(_ sender: UIButton) {
         
@@ -222,8 +222,6 @@ class VideoRecordingViewController: UIViewController, AVCaptureFileOutputRecordi
             let imageURL = self.imageURL else { return}
         
         experienceController.createExperience(with: title, audioURL: audioURL, videoURL: videoURL, image: imageURL, coordinate: LocationHelper.shared.currentLocation?.coordinate ?? kCLLocationCoordinate2DInvalid)
-        
-        
         
         performSegue(withIdentifier: "toMapVC", sender: self)
         

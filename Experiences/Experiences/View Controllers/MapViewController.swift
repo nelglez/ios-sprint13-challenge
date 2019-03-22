@@ -38,6 +38,7 @@ class MapViewController: UIViewController, MKMapViewDelegate {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         zoomToUsersLocation()
+        addAnnotation()
     }
     
     func addAnnotation() {
@@ -71,7 +72,7 @@ class MapViewController: UIViewController, MKMapViewDelegate {
         
         let annotationView = mapView.dequeueReusableAnnotationView(withIdentifier: "ExperienceAnnotationView", for: experience) as? MKMarkerAnnotationView
       
-        //annotationView?.glyphText = experience.postTitle
+        annotationView?.glyphText = experience.postTitle
         annotationView?.glyphTintColor = .white
         //annotationView?.markerTintColor = .blue
         annotationView?.titleVisibility = .visible
