@@ -19,7 +19,7 @@ class MapViewController: UIViewController, MKMapViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        addAnnotation()
+    //    addAnnotation()
         
         mapView.delegate = self
         
@@ -31,7 +31,7 @@ class MapViewController: UIViewController, MKMapViewDelegate {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        addAnnotation()
+     //   addAnnotation()
         
     }
 
@@ -43,9 +43,9 @@ class MapViewController: UIViewController, MKMapViewDelegate {
     
     func addAnnotation() {
         
-        mapView.removeAnnotations(mapView.annotations)
-        guard let experience = experienceController?.experiences else {return}
-        mapView.addAnnotations(experience)
+//        mapView.removeAnnotations(mapView.annotations)
+//        guard let experience = experienceController?.experiences else {return}
+//        mapView.addAnnotations(experience)
         
         let myPin = MKPointAnnotation()
         if let myCoordinate = experienceController?.newExperiences?.coordinate {
