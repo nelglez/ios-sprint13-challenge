@@ -16,6 +16,7 @@
 		7AB9B58C22453A970091A03D /* VideoRecordingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB9B58B22453A970091A03D /* VideoRecordingViewController.swift */; };
 		7AB9B58E22453B420091A03D /* CameraPreviewPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB9B58D22453B420091A03D /* CameraPreviewPreview.swift */; };
 		7AB9B59322453DC90091A03D /* Experience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB9B59222453DC90091A03D /* Experience.swift */; };
+		7AB9B59622453E720091A03D /* ExperienceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB9B59522453E720091A03D /* ExperienceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		7AB9B58B22453A970091A03D /* VideoRecordingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoRecordingViewController.swift; sourceTree = "<group>"; };
 		7AB9B58D22453B420091A03D /* CameraPreviewPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewPreview.swift; sourceTree = "<group>"; };
 		7AB9B59222453DC90091A03D /* Experience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experience.swift; sourceTree = "<group>"; };
+		7AB9B59522453E720091A03D /* ExperienceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +65,9 @@
 			isa = PBXGroup;
 			children = (
 				7A15BBE82245322A009957DA /* AppDelegate.swift */,
-				7AB9B59422453E110091A03D /* Model */,
 				7AB9B58F22453BE00091A03D /* Helpers */,
+				7AB9B59422453E110091A03D /* Model */,
+				7AB9B59722453EAE0091A03D /* Model Controller */,
 				7AB9B59022453BED0091A03D /* View Controllers */,
 				7A15BBEC2245322A009957DA /* Main.storyboard */,
 				7A15BBEF2245322F009957DA /* Assets.xcassets */,
@@ -98,6 +101,14 @@
 				7AB9B59222453DC90091A03D /* Experience.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		7AB9B59722453EAE0091A03D /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7AB9B59522453E720091A03D /* ExperienceController.swift */,
+			);
+			path = "Model Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +188,7 @@
 				7AB9B59322453DC90091A03D /* Experience.swift in Sources */,
 				7A15BBEB2245322A009957DA /* MapViewController.swift in Sources */,
 				7A15BBE92245322A009957DA /* AppDelegate.swift in Sources */,
+				7AB9B59622453E720091A03D /* ExperienceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
